@@ -3,30 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>授業記録リンクページ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #f5f5f5;
+      font-family: 'Noto Serif JP', serif;
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
       text-align: center;
-      padding: 50px;
+      padding: 50px 20px;
+      color: #fff;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
     }
+
     h1 {
+      background-color: rgba(255, 255, 255, 0.6);
       color: #333;
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 15px;
+      font-size: 2em;
+      text-shadow: none;
+      margin-bottom: 40px;
     }
+
     .button {
       display: block;
       width: 300px;
       margin: 20px auto;
       padding: 20px;
-      background-color: #4CAF50;
+      background-color: rgba(108, 154, 139, 0.9);
       color: white;
       text-decoration: none;
       font-size: 18px;
-      border-radius: 10px;
-      transition: background-color 0.3s;
+      border-radius: 15px;
+      box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s, transform 0.2s;
     }
+
     .button:hover {
-      background-color: #45a049;
+      background-color: rgba(88, 141, 120, 0.95);
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 600px) {
+      .button {
+        width: 90%;
+        font-size: 16px;
+        padding: 15px;
+      }
     }
   </style>
 </head>
@@ -34,12 +60,11 @@
   <h1>授業記録フォーム</h1>
 
   <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdsaUWeJqx_aEs5xniPhLLy8qNHUnjcYFx3bipXpt30SBQYfA/viewform?usp=dialog" target="_blank">
-    ▶ 授業前の計画を立てる
+    🌱 授業前の計画を立てる
   </a>
 
   <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdispcAwSlTOkCj4QXI93UJ77LzY3NwOdE-Zi9mdCGzvNXzMg/viewform?usp=dialog" target="_blank">
-    ▶ 授業後の振り返りを記入する
+    🌿 授業後の振り返りを記入する
   </a>
-
 </body>
 </html>
