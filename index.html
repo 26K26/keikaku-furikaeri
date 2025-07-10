@@ -2,33 +2,44 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>授業記録フォーム</title>
+  <title>授業記録リンクページ</title>
   <style>
     body {
-      font-family: sans-serif;
-      margin: 20px;
+      font-family: 'Arial', sans-serif;
       background-color: #f5f5f5;
+      text-align: center;
+      padding: 50px;
     }
-    h1, h2 {
+    h1 {
       color: #333;
     }
-    iframe {
-      width: 100%;
-      height: 700px;
-      border: none;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      margin-bottom: 50px;
+    .button {
+      display: block;
+      width: 300px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #45a049;
     }
   </style>
 </head>
 <body>
   <h1>授業記録フォーム</h1>
 
-  <h2>① 授業前の計画</h2>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsaUWeJqx_aEs5xniPhLLy8qNHUnjcYFx3bipXpt30SBQYfA/viewform?usp=dialog"></iframe>
+  <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdsaUWeJqx_aEs5xniPhLLy8qNHUnjcYFx3bipXpt30SBQYfA/viewform?usp=dialog" target="_blank">
+    ▶ 授業前の計画を立てる
+  </a>
 
-  <h2>② 授業後の振り返り</h2>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdispcAwSlTOkCj4QXI93UJ77LzY3NwOdE-Zi9mdCGzvNXzMg/viewform?usp=dialog" allowfullscreen></iframe>
+  <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdispcAwSlTOkCj4QXI93UJ77LzY3NwOdE-Zi9mdCGzvNXzMg/viewform?usp=dialog" target="_blank">
+    ▶ 授業後の振り返りを記入する
+  </a>
+
 </body>
 </html>
